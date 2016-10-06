@@ -15,4 +15,9 @@ public class RomanNumeralConverterTest {
     public void whenRomanNumeralConverterIsPassedOneItReturnsI() {
        assertEquals("I", converter.convertFromArabicToRomanNumeral(1));
     }
+
+    @Test
+    public void whenRomanNumeralConverterIsPassedThreeItReturnsIII() {
+        assertEquals("III", converter.convertFromArabicToRomanNumeral(3));
+    }
 }
