@@ -3,8 +3,9 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class RomanNumeralConverter {
-
-    private static final Map<Integer, String> numeralMap = new LinkedHashMap<Integer, String>();
+    private static final Map<Integer, String> numeralMap = new LinkedHashMap<>();
+    private static final int MINIMUM = 0;
+    private static final int MAXIMUM = 4000;
 
     static {
         numeralMap.put(1000, "M");
@@ -25,7 +26,11 @@ public class RomanNumeralConverter {
     public String convertFromArabicToRomanNumeral(Integer inputNumber) {
         StringBuilder romanNumeral = new StringBuilder();
 
-        while(inputNumber != 0) {
+        if(inputNumber <= MINIMUM || inputNumber >= MAXIMUM) {
+            return "I'm sorry. I don't know how to convert " + inputNumber + ". :(";
+        }
+
+        while(inputNumber > MINIMUM) {
             for(Map.Entry<Integer, String> numeralMapEntry : numeralMap.entrySet()) {
                 Integer numeralSegmentArabicValue = numeralMapEntry.getKey();
                 String numeralSegment = numeralMapEntry.getValue();

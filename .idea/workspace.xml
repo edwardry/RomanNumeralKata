@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RomanNumeralConverterTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RomanNumeralConverterTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/RomanNumeralConverterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+            <state relative-caret-position="286">
+              <caret line="54" column="118" selection-start-line="54" selection-start-column="118" selection-end-line="54" selection-end-column="118" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#218#219#0" expanded="true" />
@@ -39,14 +39,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RomanNumeralConverter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RomanNumeralConverter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RomanNumeralConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+            <state relative-caret-position="153">
+              <caret line="29" column="82" selection-start-line="29" selection-start-column="82" selection-end-line="29" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#195#212#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,8 +71,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/RomanNumeralConverterTest.java" />
         <option value="$PROJECT_DIR$/src/RomanNumeralConverter.java" />
+        <option value="$PROJECT_DIR$/test/RomanNumeralConverterTest.java" />
       </list>
     </option>
   </component>
@@ -429,16 +428,24 @@
       <option name="project" value="LOCAL" />
       <updated>1475716847996</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added support for converting any value of 100 or less. Fixed a bug that could cause conversions to be incorrect in some cases.">
+      <created>1475718098105</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1475718098105</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added an additional assertion in test case for testing values of one hundred or less. Added a new test case for testing an assortment of large values over 100 and 1000">
+      <created>1475719267545</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1475719267545</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RomanNumeralConverterTest - 2016.10.05 at 19h 52m 22s.xml">
-      <configuration name="RomanNumeralConverterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanNumeralConverterTest - 2016.10.05 at 19h 52m 46s.xml">
-      <configuration name="RomanNumeralConverterTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RomanNumeralConverterTest - 2016.10.05 at 20h 05m 46s.xml">
       <configuration name="RomanNumeralConverterTest" configurationId="JUnit" />
     </history-entry>
@@ -463,10 +470,16 @@
     <history-entry file="RomanNumeralConverterTest - 2016.10.05 at 21h 38m 58s.xml">
       <configuration name="RomanNumeralConverterTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RomanNumeralConverterTest - 2016.10.05 at 21h 59m 35s.xml">
+      <configuration name="RomanNumeralConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanNumeralConverterTest - 2016.10.05 at 22h 19m 21s.xml">
+      <configuration name="RomanNumeralConverterTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -475,8 +488,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.50292826" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.49121523" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5087848" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.49121523" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5087848" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -505,7 +518,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added support for converting values under 10 that require numeral subtraction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added support for converting values under 10 that require numeral subtraction" />
+    <MESSAGE value="Added support for converting any value of 100 or less. Fixed a bug that could cause conversions to be incorrect in some cases." />
+    <MESSAGE value="Added an additional assertion in test case for testing values of one hundred or less. Added a new test case for testing an assortment of large values over 100 and 1000" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added an additional assertion in test case for testing values of one hundred or less. Added a new test case for testing an assortment of large values over 100 and 1000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -516,25 +531,24 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/RomanNumeralConverterTest.java">
+    <entry file="file://$PROJECT_DIR$/src/RomanNumeralConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        <state relative-caret-position="153">
+          <caret line="29" column="82" selection-start-line="29" selection-start-column="82" selection-end-line="29" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RomanNumeralConverter.java">
+    <entry file="file://$PROJECT_DIR$/test/RomanNumeralConverterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        <state relative-caret-position="286">
+          <caret line="54" column="118" selection-start-line="54" selection-start-column="118" selection-end-line="54" selection-end-column="118" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#195#212#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
           </folding>
         </state>
       </provider>
