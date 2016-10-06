@@ -20,4 +20,10 @@ public class RomanNumeralConverterTest {
     public void whenRomanNumeralConverterIsPassedThreeItReturnsIII() {
         assertEquals("III", converter.convertFromArabicToRomanNumeral(3));
     }
+
+    @Test
+    public void whenRomanNumeralConverterIsPassedAValueUnderTenThatRequiresNumeralSubtraction() {
+        assertEquals("IV", converter.convertFromArabicToRomanNumeral(4));
+        assertEquals("IX", converter.convertFromArabicToRomanNumeral(9));
+    }
 }
