@@ -7,6 +7,10 @@ public class RomanNumeralConverter {
     private static final Map<Integer, String> numeralMap = new LinkedHashMap<Integer, String>();
 
     static {
+        numeralMap.put(1000, "M");
+        numeralMap.put(900, "CM");
+        numeralMap.put(500, "D");
+        numeralMap.put(400, "CD");
         numeralMap.put(100, "C");
         numeralMap.put(90, "XC");
         numeralMap.put(50, "L");
