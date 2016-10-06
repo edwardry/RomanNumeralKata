@@ -7,6 +7,10 @@ public class RomanNumeralConverter {
     private static final Map<Integer, String> numeralMap = new LinkedHashMap<Integer, String>();
 
     static {
+        numeralMap.put(100, "C");
+        numeralMap.put(90, "XC");
+        numeralMap.put(50, "L");
+        numeralMap.put(40, "XL");
         numeralMap.put(10, "X");
         numeralMap.put(9, "IX");
         numeralMap.put(5, "V");
@@ -25,6 +29,7 @@ public class RomanNumeralConverter {
                 if(inputNumber >= numeralSegmentArabicValue) {
                     inputNumber -= numeralSegmentArabicValue;
                     romanNumeral.append(numeralSegment);
+                    break;
                 }
             }
         }
