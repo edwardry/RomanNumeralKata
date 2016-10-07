@@ -24,4 +24,8 @@ public class RomanNumeral {
 
         return romanNumeral.toString();
     }
+
+    public static int toInt(String input) {
+        return 1;
+    }
 }

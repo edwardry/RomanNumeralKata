@@ -47,4 +47,9 @@ public class RomanNumeralTest {
         assertEquals("I'm sorry. I don't know how to convert 4000. :(", RomanNumeral.valueOf(4000));
         assertEquals("I'm sorry. I don't know how to convert 12345. :(", RomanNumeral.valueOf(12345));
     }
+
+    @Test
+    public void whenRomanNumeralToIntIsPassedAValueOfIItReturnsOne() {
+        assertEquals(1, RomanNumeral.toInt("I"));
+    }
 }
