@@ -63,4 +63,10 @@ public class RomanNumeralTest {
         assertEquals(3, RomanNumeral.toInt("III"));
         assertEquals(6, RomanNumeral.toInt("VI"));
     }
+
+    @Test
+    public void whenRomanNumeralToIntIsPassedAnInputThatInvolvesRomanNumeralSubtractionResultingInAValueLessThanTen() {
+        assertEquals(4, RomanNumeral.toInt("IV"));
+        assertEquals(9, RomanNumeral.toInt("IX"));
+    }
 }

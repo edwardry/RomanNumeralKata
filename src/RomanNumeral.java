@@ -32,8 +32,14 @@ public class RomanNumeral {
             for(Map.Entry<Integer, String> numeralMapEntry : Constants.numeralMap.entrySet()) {
                 Integer numeralSegmentArabicValue = numeralMapEntry.getKey();
                 String numeralSegment = numeralMapEntry.getValue();
+                int numeralSegmentLength = numeralSegment.length();
 
-                if(input.substring(0, 1).equalsIgnoreCase(numeralSegment)) {
+                if(input.length() < numeralSegmentLength)
+                    continue;
+
+                String inputSegment = input.substring(0, numeralSegmentLength);
+
+                if(inputSegment.equalsIgnoreCase(numeralSegment)) {
                     result += numeralSegmentArabicValue;
                     input = input.replaceFirst(numeralSegment, "");
                     break;
