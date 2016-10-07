@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23e26504-11dd-466e-b64c-0f94b81cb378" name="Default" comment="After changing the name of the class I also decided to change the name of the converter method to valueOf(int input) to be more consistent with other Java type classes">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Constants.java" />
+    <list default="true" id="23e26504-11dd-466e-b64c-0f94b81cb378" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RomanNumeral.java" afterPath="$PROJECT_DIR$/src/RomanNumeral.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/RomanNumeralTest.java" afterPath="$PROJECT_DIR$/test/RomanNumeralTest.java" />
     </list>
     <ignored path="RomanNumeralConverter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,10 +27,14 @@
       <file leaf-file-name="RomanNumeralTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/RomanNumeralTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="62" selection-start-line="37" selection-start-column="62" selection-end-line="37" selection-end-column="62" />
+            <state relative-caret-position="221">
+              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,9 +84,9 @@
       <list>
         <option value="$PROJECT_DIR$/test/RomanNumeralConverterTest.java" />
         <option value="$PROJECT_DIR$/src/RomanNumeralConverter.java" />
-        <option value="$PROJECT_DIR$/test/RomanNumeralTest.java" />
         <option value="$PROJECT_DIR$/src/Constants.java" />
         <option value="$PROJECT_DIR$/src/RomanNumeral.java" />
+        <option value="$PROJECT_DIR$/test/RomanNumeralTest.java" />
       </list>
     </option>
   </component>
@@ -474,13 +477,17 @@
       <option name="project" value="LOCAL" />
       <updated>1475807520688</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Moved constants into Constants class">
+      <created>1475807997167</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1475807997167</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RomanNumeralConverterTest - 2016.10.05 at 21h 10m 00s.xml">
-      <configuration name="RomanNumeralConverterTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RomanNumeralConverterTest - 2016.10.05 at 21h 15m 34s.xml">
       <configuration name="RomanNumeralConverterTest" configurationId="JUnit" />
     </history-entry>
@@ -506,6 +513,9 @@
       <configuration name="RomanNumeralTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RomanNumeralTest - 2016.10.06 at 22h 39m 18s.xml">
+      <configuration name="RomanNumeralTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanNumeralTest - 2016.10.06 at 23h 25m 51s.xml">
       <configuration name="RomanNumeralTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -556,7 +566,8 @@
     <MESSAGE value="Changed the name of RomanNumeralConverter to just RomanNumeral. The reason for doing this is that this class could be leveraged as a type class such as with Integer, String, etc. in the future and would be more than just a converter. Also changed the convert from arabic to roman numeral method to be a static method as it seems more appropriate for this method." />
     <MESSAGE value="After changing the name of the class I also decided to change the name of the converter method to valueOf(int input) to be more consistent with other Java type classes. In this way I can now add the reverse conversion method as an overloaded version of the method valueOf(String input)" />
     <MESSAGE value="After changing the name of the class I also decided to change the name of the converter method to valueOf(int input) to be more consistent with other Java type classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="After changing the name of the class I also decided to change the name of the converter method to valueOf(int input) to be more consistent with other Java type classes" />
+    <MESSAGE value="Moved constants into Constants class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved constants into Constants class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -573,6 +584,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -591,6 +606,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -623,10 +642,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/RomanNumeralTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="62" selection-start-line="37" selection-start-column="62" selection-end-line="37" selection-end-column="62" />
+        <state relative-caret-position="221">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
           </folding>
         </state>
       </provider>
