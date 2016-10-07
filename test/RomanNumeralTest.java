@@ -79,4 +79,16 @@ public class RomanNumeralTest {
         assertEquals(94, RomanNumeral.toInt("XCIV"));
         assertEquals(100, RomanNumeral.toInt("C"));
     }
+
+    @Test
+    public void whenRomanNumeralToIntIsPassedAnyInputResultingInAValueOfMoreThanOneHundred() {
+        assertEquals(500, RomanNumeral.toInt("D"));
+        assertEquals(1000, RomanNumeral.toInt("M"));
+        assertEquals(400, RomanNumeral.toInt("CD"));
+        assertEquals(900, RomanNumeral.toInt("CM"));
+        assertEquals(1066, RomanNumeral.toInt("MLXVI"));
+        assertEquals(1989, RomanNumeral.toInt("MCMLXXXIX"));
+        assertEquals(3444, RomanNumeral.toInt("MMMCDXLIV"));
+        assertEquals(3999, RomanNumeral.toInt("MMMCMXCIX"));
+    }
 }

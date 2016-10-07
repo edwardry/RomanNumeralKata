@@ -27,8 +27,8 @@
       <file leaf-file-name="RomanNumeralTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/RomanNumeralTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="79" column="47" selection-start-line="79" selection-start-column="47" selection-end-line="79" selection-end-column="47" />
+            <state relative-caret-position="238">
+              <caret line="88" column="53" selection-start-line="88" selection-start-column="53" selection-end-line="88" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#183#184#0" expanded="true" />
@@ -523,13 +523,17 @@
       <option name="project" value="LOCAL" />
       <updated>1475812787635</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added test case to cover values of 100 or less">
+      <created>1475813216073</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1475813216074</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RomanNumeralTest - 2016.10.06 at 23h 32m 33s.xml">
-      <configuration name="RomanNumeralTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RomanNumeralTest - 2016.10.06 at 23h 41m 00s.xml">
       <configuration name="RomanNumeralTest" configurationId="JUnit" />
     </history-entry>
@@ -555,6 +559,9 @@
       <configuration name="RomanNumeralTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RomanNumeralTest - 2016.10.07 at 00h 06m 15s.xml">
+      <configuration name="RomanNumeralTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanNumeralTest - 2016.10.07 at 00h 13m 07s.xml">
       <configuration name="RomanNumeralTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -611,7 +618,8 @@
     <MESSAGE value="Added test case for passing V into toInt and getting 5 in return" />
     <MESSAGE value="Added test case for passing strings with multiple characters that return a result of less than 10" />
     <MESSAGE value="Added logic to handle cases where a Roman Numeral string under the value of 10 that has subtraction segments in it can be converted to a digit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added logic to handle cases where a Roman Numeral string under the value of 10 that has subtraction segments in it can be converted to a digit" />
+    <MESSAGE value="Added test case to cover values of 100 or less" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added test case to cover values of 100 or less" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -694,8 +702,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/RomanNumeralTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="79" column="47" selection-start-line="79" selection-start-column="47" selection-end-line="79" selection-end-column="47" />
+        <state relative-caret-position="238">
+          <caret line="88" column="53" selection-start-line="88" selection-start-column="53" selection-end-line="88" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#183#184#0" expanded="true" />
