@@ -52,4 +52,9 @@ public class RomanNumeralTest {
     public void whenRomanNumeralToIntIsPassedAValueOfIItReturnsOne() {
         assertEquals(1, RomanNumeral.toInt("I"));
     }
+
+    @Test
+    public void whenRomanNumeralToIntIsPassedAValueOfVItReturns5() {
+        assertEquals(5, RomanNumeral.toInt("V"));
+    }
 }

@@ -26,6 +26,21 @@ public class RomanNumeral {
     }
 
     public static int toInt(String input) {
-        return 1;
+        int result = 0;
+
+        while(!input.isEmpty()) {
+            for(Map.Entry<Integer, String> numeralMapEntry : Constants.numeralMap.entrySet()) {
+                Integer numeralSegmentArabicValue = numeralMapEntry.getKey();
+                String numeralSegment = numeralMapEntry.getValue();
+
+                if(input.substring(0, 1).equalsIgnoreCase(numeralSegment)) {
+                    result += numeralSegmentArabicValue;
+                    input = input.replaceFirst(numeralSegment, "");
+                    break;
+                }
+            }
+        }
+
+        return result;
     }
 }
