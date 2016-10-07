@@ -1,8 +1,7 @@
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class RomanNumeralConverter {
+public class RomanNumeral {
     private static final Map<Integer, String> numeralMap = new LinkedHashMap<>();
     private static final int MINIMUM = 0;
     private static final int MAXIMUM = 4000;
@@ -23,7 +22,7 @@ public class RomanNumeralConverter {
         numeralMap.put(1, "I");
     }
 
-    public String convertFromArabicToRomanNumeral(Integer inputNumber) {
+    public static String convertFromArabicToRomanNumeral(Integer inputNumber) {
         StringBuilder romanNumeral = new StringBuilder();
 
         if(inputNumber <= MINIMUM || inputNumber >= MAXIMUM) {
