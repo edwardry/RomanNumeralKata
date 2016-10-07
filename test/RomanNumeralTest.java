@@ -54,7 +54,7 @@ public class RomanNumeralTest {
     }
 
     @Test
-    public void whenRomanNumeralToIntIsPassedAValueOfVItReturns5() {
+    public void whenRomanNumeralToIntIsPassedAValueOfVItReturnsFive() {
         assertEquals(5, RomanNumeral.toInt("V"));
     }
 
@@ -68,5 +68,15 @@ public class RomanNumeralTest {
     public void whenRomanNumeralToIntIsPassedAnInputThatInvolvesRomanNumeralSubtractionResultingInAValueLessThanTen() {
         assertEquals(4, RomanNumeral.toInt("IV"));
         assertEquals(9, RomanNumeral.toInt("IX"));
+    }
+
+    @Test
+    public void whenRomanNumeralToIntIsPassedAnyInputResultingInAValueOfOneHundredOrLess() {
+        assertEquals(14, RomanNumeral.toInt("XIV"));
+        assertEquals(49, RomanNumeral.toInt("XLIX"));
+        assertEquals(50, RomanNumeral.toInt("L"));
+        assertEquals(66, RomanNumeral.toInt("LXVI"));
+        assertEquals(94, RomanNumeral.toInt("XCIV"));
+        assertEquals(100, RomanNumeral.toInt("C"));
     }
 }
