@@ -91,4 +91,13 @@ public class RomanNumeralTest {
         assertEquals(3444, RomanNumeral.toInt("MMMCDXLIV"));
         assertEquals(3999, RomanNumeral.toInt("MMMCMXCIX"));
     }
+
+    @Test
+    public void whenRomanNumeralToIntIsPassedAsInputToValueOfRomanNumeralAndViceVersa() {
+        int arabicInput = RomanNumeral.toInt("MMMCMXCIX");
+        String romanNumeralInput = RomanNumeral.valueOf(3999);
+
+        assertEquals("MMMCMXCIX", RomanNumeral.valueOf(arabicInput));
+        assertEquals(3999, RomanNumeral.toInt(romanNumeralInput));
+    }
 }
