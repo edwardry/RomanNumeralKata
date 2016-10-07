@@ -57,4 +57,10 @@ public class RomanNumeralTest {
     public void whenRomanNumeralToIntIsPassedAValueOfVItReturns5() {
         assertEquals(5, RomanNumeral.toInt("V"));
     }
+
+    @Test
+    public void whenRomanNumeralToIntIsPassedAnInputWithMoreThanOneCharacterResultingInAValueLessThanTen() {
+        assertEquals(3, RomanNumeral.toInt("III"));
+        assertEquals(6, RomanNumeral.toInt("VI"));
+    }
 }

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="23e26504-11dd-466e-b64c-0f94b81cb378" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RomanNumeral.java" afterPath="$PROJECT_DIR$/src/RomanNumeral.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/RomanNumeralTest.java" afterPath="$PROJECT_DIR$/test/RomanNumeralTest.java" />
     </list>
     <ignored path="RomanNumeralConverter.iws" />
@@ -28,8 +27,8 @@
       <file leaf-file-name="RomanNumeralTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/RomanNumeralTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="47" column="75" selection-start-line="47" selection-start-column="75" selection-end-line="47" selection-end-column="75" />
+            <state relative-caret-position="306">
+              <caret line="63" column="50" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#183#184#0" expanded="true" />
@@ -78,8 +77,8 @@
         <option value="$PROJECT_DIR$/test/RomanNumeralConverterTest.java" />
         <option value="$PROJECT_DIR$/src/RomanNumeralConverter.java" />
         <option value="$PROJECT_DIR$/src/Constants.java" />
-        <option value="$PROJECT_DIR$/test/RomanNumeralTest.java" />
         <option value="$PROJECT_DIR$/src/RomanNumeral.java" />
+        <option value="$PROJECT_DIR$/test/RomanNumeralTest.java" />
       </list>
     </option>
   </component>
@@ -491,13 +490,17 @@
       <option name="project" value="LOCAL" />
       <updated>1475811037346</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added test case for passing V into toInt and getting 5 in return">
+      <created>1475811831655</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1475811831655</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RomanNumeralConverterTest - 2016.10.05 at 22h 19m 21s.xml">
-      <configuration name="RomanNumeralConverterTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RomanNumeralTest - 2016.10.06 at 22h 15m 20s.xml">
       <configuration name="RomanNumeralTest" configurationId="JUnit" />
     </history-entry>
@@ -523,6 +526,9 @@
       <configuration name="RomanNumeralTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RomanNumeralTest - 2016.10.06 at 23h 43m 08s.xml">
+      <configuration name="RomanNumeralTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanNumeralTest - 2016.10.06 at 23h 46m 18s.xml">
       <configuration name="RomanNumeralTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -576,7 +582,8 @@
     <MESSAGE value="Moved constants into Constants class" />
     <MESSAGE value="Forgot to update the method names of my test cases after changes the name of the convert arabic to roman numeral method to valueOf" />
     <MESSAGE value="Created method RomanNumeral.toInt(String input) with one test case that converts I to 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created method RomanNumeral.toInt(String input) with one test case that converts I to 1" />
+    <MESSAGE value="Added test case for passing V into toInt and getting 5 in return" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added test case for passing V into toInt and getting 5 in return" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -659,8 +666,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/RomanNumeralTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="47" column="75" selection-start-line="47" selection-start-column="75" selection-end-line="47" selection-end-column="75" />
+        <state relative-caret-position="306">
+          <caret line="63" column="50" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#183#184#0" expanded="true" />
