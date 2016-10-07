@@ -22,20 +22,20 @@ public class RomanNumeral {
         numeralMap.put(1, "I");
     }
 
-    public static String convertFromArabicToRomanNumeral(Integer inputNumber) {
+    public static String valueOf(int input) {
         StringBuilder romanNumeral = new StringBuilder();
 
-        if(inputNumber <= MINIMUM || inputNumber >= MAXIMUM) {
-            return "I'm sorry. I don't know how to convert " + inputNumber + ". :(";
+        if(input <= MINIMUM || input >= MAXIMUM) {
+            return "I'm sorry. I don't know how to convert " + input + ". :(";
         }
 
-        while(inputNumber > MINIMUM) {
+        while(input > MINIMUM) {
             for(Map.Entry<Integer, String> numeralMapEntry : numeralMap.entrySet()) {
                 Integer numeralSegmentArabicValue = numeralMapEntry.getKey();
                 String numeralSegment = numeralMapEntry.getValue();
 
-                if(inputNumber >= numeralSegmentArabicValue) {
-                    inputNumber -= numeralSegmentArabicValue;
+                if(input >= numeralSegmentArabicValue) {
+                    input -= numeralSegmentArabicValue;
                     romanNumeral.append(numeralSegment);
                     break;
                 }
