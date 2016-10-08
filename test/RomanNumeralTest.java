@@ -123,4 +123,13 @@ public class RomanNumeralTest {
         assertEquals(-1, RomanNumeral.toInt("LLXXV"));
         assertEquals(-1, RomanNumeral.toInt("XXVVII"));
     }
+
+    @Test
+    public void whenRomanNumeralToIntIsPassedInputWithInvalidSubtractions() {
+        assertEquals(-1, RomanNumeral.toInt("IIV"));
+        assertEquals(-1, RomanNumeral.toInt("XXC"));
+        assertEquals(-1, RomanNumeral.toInt("IVX"));
+        assertEquals(-1, RomanNumeral.toInt("CCDM"));
+        assertEquals(-1, RomanNumeral.toInt("IVXLCDM"));
+    }
 }

@@ -29,11 +29,7 @@ public class RomanNumeral {
 
     public static int toInt(String input) {
         int result = 0;
-
-        boolean romanNumeralInvalid = isRomanNumeralInvalid(input);
-
-        if(romanNumeralInvalid)
-            return -1;
+        String actual = input;
 
         while(!input.isEmpty()) {
             for(Map.Entry<Integer, String> numeralMapEntry : Constants.numeralMap.entrySet()) {
@@ -52,6 +48,12 @@ public class RomanNumeral {
                     break;
                 }
             }
+        }
+
+        // The below logic uses RomanNumeral.valueOf to verify that the Roman Numeral input is valid
+        String expectedResult = RomanNumeral.valueOf(result);
+        if(!actual.equalsIgnoreCase(expectedResult)) {
+            result = -1;
         }
 
         return result;
