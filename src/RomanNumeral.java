@@ -1,6 +1,4 @@
 import java.util.Map;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class RomanNumeral {
 
@@ -50,26 +48,18 @@ public class RomanNumeral {
             }
         }
 
-        // The below logic uses RomanNumeral.valueOf to verify that the Roman Numeral input is valid
-        String expectedResult = RomanNumeral.valueOf(result);
-        if(!actual.equalsIgnoreCase(expectedResult)) {
-            result = -1;
-        }
+        result = checkIfInputWasValid(actual, result);
 
         return result;
     }
 
-    private static boolean isRomanNumeralInvalid(String input) {
-        boolean invalid = false;
-
-        if(input.isEmpty()) {
-            invalid = true;
-        } else if(input.contains("IIII") || input.contains("XXXX") || input.contains("CCCC") || input.contains("MMMM")) {
-            invalid = true;
-        } else if(input.contains("VV") || input.contains("LL") || input.contains("DD")) {
-            invalid = true;
+    // This method uses RomanNumeral.valueOf to verify that the Roman Numeral input was valid
+    private static int checkIfInputWasValid(String actual, int result) {
+        String expected = RomanNumeral.valueOf(result);
+        if(!actual.equalsIgnoreCase(expected)) {
+            result = -1;
         }
 
-        return invalid;
+        return result;
     }
 }
