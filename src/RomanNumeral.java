@@ -28,6 +28,11 @@ public class RomanNumeral {
     public static int toInt(String input) {
         int result = 0;
 
+        boolean romanNumeralInvalid = isRomanNumeralInvalid(input);
+
+        if(romanNumeralInvalid)
+            return -1;
+
         while(!input.isEmpty()) {
             for(Map.Entry<Integer, String> numeralMapEntry : Constants.numeralMap.entrySet()) {
                 Integer numeralSegmentArabicValue = numeralMapEntry.getKey();
@@ -48,5 +53,15 @@ public class RomanNumeral {
         }
 
         return result;
+    }
+
+    private static boolean isRomanNumeralInvalid(String input) {
+        boolean invalid = false;
+
+        if(input.isEmpty()) {
+            invalid = true;
+        }
+
+        return invalid;
     }
 }

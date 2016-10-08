@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23e26504-11dd-466e-b64c-0f94b81cb378" name="Default" comment="Added test case to test">
+    <list default="true" id="23e26504-11dd-466e-b64c-0f94b81cb378" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RomanNumeral.java" afterPath="$PROJECT_DIR$/src/RomanNumeral.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/RomanNumeralTest.java" afterPath="$PROJECT_DIR$/test/RomanNumeralTest.java" />
     </list>
     <ignored path="RomanNumeralConverter.iws" />
@@ -24,43 +25,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RomanNumeralTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/RomanNumeralTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="100" column="63" selection-start-line="100" selection-start-column="63" selection-end-line="100" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#183#184#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#2096#2097#0" expanded="true" />
-                <element signature="e#2152#2153#0" expanded="true" />
-                <element signature="e#2235#2236#0" expanded="true" />
-                <element signature="e#2291#2292#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RomanNumeral.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RomanNumeral.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/RomanNumeral.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="41" column="67" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
+            <state relative-caret-position="218">
+              <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Constants.java">
+      <file leaf-file-name="RomanNumeralTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/RomanNumeralTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+            <state relative-caret-position="-54">
+              <caret line="78" column="53" selection-start-line="78" selection-start-column="53" selection-end-line="78" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#4191#4192#0" expanded="true" />
+                <element signature="e#4247#4248#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,9 +71,9 @@
       <list>
         <option value="$PROJECT_DIR$/test/RomanNumeralConverterTest.java" />
         <option value="$PROJECT_DIR$/src/RomanNumeralConverter.java" />
-        <option value="$PROJECT_DIR$/src/RomanNumeral.java" />
         <option value="$PROJECT_DIR$/src/Constants.java" />
         <option value="$PROJECT_DIR$/test/RomanNumeralTest.java" />
+        <option value="$PROJECT_DIR$/src/RomanNumeral.java" />
       </list>
     </option>
   </component>
@@ -132,7 +115,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -181,8 +164,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -537,25 +520,17 @@
       <option name="project" value="LOCAL" />
       <updated>1475813608187</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added test case to validate when valueOf roman numeral and toInt are used with each other">
+      <created>1475814348858</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1475814348858</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RomanNumeralTest - 2016.10.06 at 23h 43m 08s.xml">
-      <configuration name="RomanNumeralTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanNumeralTest - 2016.10.06 at 23h 46m 18s.xml">
-      <configuration name="RomanNumeralTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanNumeralTest - 2016.10.06 at 23h 48m 31s.xml">
-      <configuration name="RomanNumeralTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanNumeralTest - 2016.10.06 at 23h 50m 29s.xml">
-      <configuration name="RomanNumeralTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanNumeralTest - 2016.10.06 at 23h 54m 24s.xml">
-      <configuration name="RomanNumeralTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RomanNumeralTest - 2016.10.06 at 23h 58m 08s.xml">
       <configuration name="RomanNumeralTest" configurationId="JUnit" />
     </history-entry>
@@ -571,6 +546,21 @@
     <history-entry file="RomanNumeralTest - 2016.10.07 at 00h 24m 46s.xml">
       <configuration name="RomanNumeralTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RomanNumeralTest - 2016.10.07 at 00h 44m 37s.xml">
+      <configuration name="RomanNumeralTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanNumeralTest - 2016.10.07 at 00h 46m 43s.xml">
+      <configuration name="RomanNumeralTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanNumeralTest - 2016.10.08 at 16h 40m 57s.xml">
+      <configuration name="RomanNumeralTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanNumeralTest - 2016.10.08 at 16h 41m 56s.xml">
+      <configuration name="RomanNumeralTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanNumeralTest - 2016.10.08 at 16h 42m 11s.xml">
+      <configuration name="RomanNumeralTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -583,7 +573,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.49121523" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.49121523" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34150326" sideWeight="0.5087848" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -627,7 +617,8 @@
     <MESSAGE value="Added logic to handle cases where a Roman Numeral string under the value of 10 that has subtraction segments in it can be converted to a digit" />
     <MESSAGE value="Added test case to cover values of 100 or less" />
     <MESSAGE value="Added test case to cover values of 100 or more" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added test case to cover values of 100 or more" />
+    <MESSAGE value="Added test case to validate when valueOf roman numeral and toInt are used with each other" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added test case to validate when valueOf roman numeral and toInt are used with each other" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -644,14 +635,38 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#2096#2097#0" expanded="true" />
-            <element signature="e#2152#2153#0" expanded="true" />
-            <element signature="e#2235#2236#0" expanded="true" />
-            <element signature="e#2291#2292#0" expanded="true" />
+            <element signature="e#4191#4192#0" expanded="true" />
+            <element signature="e#4247#4248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RomanNumeral.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/RomanNumeralTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4191#4192#0" expanded="true" />
+            <element signature="e#4247#4248#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -670,14 +685,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#2096#2097#0" expanded="true" />
-            <element signature="e#2152#2153#0" expanded="true" />
-            <element signature="e#2235#2236#0" expanded="true" />
-            <element signature="e#2291#2292#0" expanded="true" />
+            <element signature="e#4191#4192#0" expanded="true" />
+            <element signature="e#4247#4248#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -700,29 +709,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RomanNumeral.java">
+    <entry file="file://$PROJECT_DIR$/test/RomanNumeralTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="41" column="67" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
-          <folding />
+        <state relative-caret-position="-54">
+          <caret line="78" column="53" selection-start-line="78" selection-start-column="53" selection-end-line="78" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4191#4192#0" expanded="true" />
+            <element signature="e#4247#4248#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/RomanNumeralTest.java">
+    <entry file="file://$PROJECT_DIR$/src/RomanNumeral.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="100" column="63" selection-start-line="100" selection-start-column="63" selection-end-line="100" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#2096#2097#0" expanded="true" />
-            <element signature="e#2152#2153#0" expanded="true" />
-            <element signature="e#2235#2236#0" expanded="true" />
-            <element signature="e#2291#2292#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="218">
+          <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>

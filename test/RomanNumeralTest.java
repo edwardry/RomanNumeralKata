@@ -100,4 +100,9 @@ public class RomanNumeralTest {
         assertEquals("MMMCMXCIX", RomanNumeral.valueOf(arabicInput));
         assertEquals(3999, RomanNumeral.toInt(romanNumeralInput));
     }
+
+    @Test
+    public void whenRomanNumeralToIntIsPassedAnEmptyString() {
+        assertEquals(-1, RomanNumeral.toInt(""));
+    }
 }
