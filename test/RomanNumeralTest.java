@@ -105,4 +105,13 @@ public class RomanNumeralTest {
     public void whenRomanNumeralToIntIsPassedAnEmptyString() {
         assertEquals(-1, RomanNumeral.toInt(""));
     }
+
+    @Test
+    public void whenRomanNumeralToIntIsPassedFourOfEitherIXCMInARow() {
+        assertEquals(-1, RomanNumeral.toInt("IIII"));
+        assertEquals(-1, RomanNumeral.toInt("XXXX"));
+        assertEquals(-1, RomanNumeral.toInt("CCCC"));
+        assertEquals(-1, RomanNumeral.toInt("MMMM"));
+        assertEquals(-1, RomanNumeral.toInt("MMXXXIIII"));
+    }
 }

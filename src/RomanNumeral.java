@@ -1,4 +1,6 @@
 import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class RomanNumeral {
 
@@ -59,6 +61,8 @@ public class RomanNumeral {
         boolean invalid = false;
 
         if(input.isEmpty()) {
+            invalid = true;
+        } else if(input.contains("IIII") || input.contains("XXXX") || input.contains("CCCC") || input.contains("MMMM")) {
             invalid = true;
         }
 
