@@ -132,4 +132,20 @@ public class RomanNumeralTest {
         assertEquals(-1, RomanNumeral.toInt("CCDM"));
         assertEquals(-1, RomanNumeral.toInt("IVXLCDM"));
     }
+
+    @Test
+    public void whenRomanNumeralToIntIsPassedInputWithInvalidCharacters() {
+        assertEquals(-1, RomanNumeral.toInt("XVI$"));
+        assertEquals(-1, RomanNumeral.toInt("XV I"));
+        assertEquals(-1, RomanNumeral.toInt("!@#%$#^&*"));
+        assertEquals(-1, RomanNumeral.toInt("ABCDXXXVII"));
+        assertEquals(-1, RomanNumeral.toInt("XXXVIIABCD"));
+    }
+
+    @Test
+    public void whenRomanNumeralToIntIsPassedInputWithVaryingCase() {
+        assertEquals(1989, RomanNumeral.toInt("mcmlxxxix"));
+        assertEquals(3444, RomanNumeral.toInt("MmMcDXLiV"));
+        assertEquals(3999, RomanNumeral.toInt("mmmcMXCIX"));
+    }
 }
