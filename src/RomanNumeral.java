@@ -64,6 +64,8 @@ public class RomanNumeral {
             invalid = true;
         } else if(input.contains("IIII") || input.contains("XXXX") || input.contains("CCCC") || input.contains("MMMM")) {
             invalid = true;
+        } else if(input.contains("VV") || input.contains("LL") || input.contains("DD")) {
+            invalid = true;
         }
 
         return invalid;

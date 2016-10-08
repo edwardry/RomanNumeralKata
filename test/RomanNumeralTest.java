@@ -114,4 +114,13 @@ public class RomanNumeralTest {
         assertEquals(-1, RomanNumeral.toInt("MMMM"));
         assertEquals(-1, RomanNumeral.toInt("MMXXXIIII"));
     }
+
+    @Test
+    public void whenRomanNumeralToIntIsPassedTwoOfEitherVLDInARow() {
+        assertEquals(-1, RomanNumeral.toInt("VV"));
+        assertEquals(-1, RomanNumeral.toInt("LL"));
+        assertEquals(-1, RomanNumeral.toInt("DD"));
+        assertEquals(-1, RomanNumeral.toInt("LLXXV"));
+        assertEquals(-1, RomanNumeral.toInt("XXVVII"));
+    }
 }
